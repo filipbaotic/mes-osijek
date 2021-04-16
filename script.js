@@ -40,3 +40,17 @@ $(document).ready(function() {
         $(".s4").toggleClass("active");
     });
 });
+
+function parallax() {
+    var yPosT = 40 + window.pageYOffset / 1;
+    var yPosB = 16 - window.pageYOffset * 1;
+    var Opa = 100 - window.pageYOffset / 3.5;
+    var Sca = 1 - window.pageYOffset / 6500;
+    document.getElementById("header").style.margin = yPosT + "px 0 " + yPosB + "px 0";
+    document.getElementById("header").style.opacity = Opa + "%";
+    document.getElementById("header").style.transform = "scale(" + Sca + "," + Sca + ")";
+}
+
+window.addEventListener("scroll", function() {
+    parallax();
+});

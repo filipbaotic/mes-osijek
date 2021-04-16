@@ -46,6 +46,7 @@ a:hover {
     margin-top: 40px;
     padding: 48px 0;
     background-image: linear-gradient(90deg, #1D75BD 0%, #28AAE1 50%, #49C0B6 100%);
+    z-index: 1;
 }
 
 .header .title {
@@ -73,18 +74,7 @@ a:hover {
 .chat {
     background: #16181A;
     padding: 32px;
-}
-
-.message1 {
-    background: #E5E5EA;
-    border-radius: 16px;
-    padding: 6px 12px;
-    font-family: Helvetica;
-    font-size: 16px;
-    color: #000000;
-    letter-spacing: -0.39px;
-    text-align: left;
-    margin-bottom: 8px;
+    z-index: 2;
 }
 
 .chat-left {
