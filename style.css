@@ -1,6 +1,6 @@
 body,
 html {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif!important;
     font-size: 13px;
     color: #002138;
     margin: 0;
