@@ -1,6 +1,6 @@
 body,
 html {
-    font-family: 'Montserrat', sans-serif!important;
+    font-family: 'Montserrat', sans-serif;
     font-size: 13px;
     color: #002138;
     margin: 0;
@@ -215,7 +215,7 @@ a.fb-event:hover {
 
 .dodaj {
     margin: 16px;
-    font-family: Montserrat-Regular;
+    font-family: Montserrat;
     font-size: 12px;
     color: rgba(22, 24, 26, .6);
     letter-spacing: -0.29px;
@@ -225,7 +225,7 @@ a.fb-event:hover {
     display: inline-block;
     padding: 8px 12px;
     border-radius: 6px;
-    font-family: Roboto-Regular;
+    font-family: Roboto;
     font-size: 14px;
     color: #FFFFFF!important;
     letter-spacing: -0.33px;
@@ -257,7 +257,7 @@ a.fb-event:hover {
     position: relative;
     padding: 12px 0;
     opacity: 0.7;
-    font-family: Montserrat-Regular;
+    font-family: Montserrat;
     font-size: 16px;
     color: #061F2D;
     letter-spacing: -0.53px;
