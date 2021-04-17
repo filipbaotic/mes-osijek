@@ -169,6 +169,7 @@ a.fb-event:hover {
     position: relative;
     height: 100px;
     margin-bottom: 42px;
+    border-radius: 6px 6px 0 0;
 }
 
 .okvir {
