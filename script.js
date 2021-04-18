@@ -42,7 +42,7 @@ $(document).ready(function() {
 });
 
 function hide() {
-    var Opa = 100 - window.pageYOffset / 3.5;
+    var Opa = 100 - window.pageYOffset / 7;
     var Sca = 1 - window.pageYOffset / 6500;
     document.getElementById("header").style.opacity = Opa + "%";
     document.getElementById("header").style.transform = "scale(" + Sca + "," + Sca + ")";

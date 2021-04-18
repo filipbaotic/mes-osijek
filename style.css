@@ -8,8 +8,8 @@ html {
 }
 
  ::selection {
-    color: #ffffff;
-    background: #0C3E5A;
+    background: #ffffff;
+    color: #0C3E5A;
 }
 
 a,
@@ -54,7 +54,7 @@ a:hover {
 
 .header {
     position: relative;
-    margin-top: 40px;
+    margin-top: 16px;
     padding: 48px 0;
     background-image: linear-gradient(90deg, #1D75BD 0%, #28AAE1 50%, #49C0B6 100%);
     z-index: 1;
