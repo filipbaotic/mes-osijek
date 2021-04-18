@@ -41,6 +41,10 @@ a:hover {
     position: relative;
 }
 
+.box img {
+    max-width: 100%;
+}
+
 .absolute-mess {
     position: fixed;
     top: 0px;

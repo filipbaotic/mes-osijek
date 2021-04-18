@@ -41,7 +41,7 @@ $(document).ready(function() {
     });
 });
 
-function parallax() {
+function hide() {
     var Opa = 100 - window.pageYOffset / 3.5;
     var Sca = 1 - window.pageYOffset / 6500;
     document.getElementById("header").style.opacity = Opa + "%";
@@ -49,5 +49,5 @@ function parallax() {
 }
 
 window.addEventListener("scroll", function() {
-    parallax();
+    hide();
 });
