@@ -50,6 +50,7 @@ a:hover {
     top: 0px;
     max-width: 592px;
     width: calc(100% - 32px);
+    z-index: -1;
 }
 
 .header {
