@@ -209,9 +209,14 @@ a.fb-event:hover {
     font-family: Montserrat-Medium;
     font-size: 22px;
     color: #0C3E5A;
-    letter-spacing: -0.52px;
+    letter-spacing: -0.6px;
     line-height: 22px;
     height: 88px;
+}
+
+.tight {
+    font-size: 21px;
+    letter-spacing: -0.8px;
 }
 
 .info {
