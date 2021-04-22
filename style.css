@@ -245,6 +245,38 @@ a.fb-event {
     margin: 8px 8px 0 0;
 }
 
+.blue .button {
+    background: #28AAE1;
+}
+
+.purple .button {
+    background: #922791;
+}
+
+.green .button {
+    background: #8EC73F;
+}
+
+.orange .button {
+    background: #F15A2B;
+}
+
+.blue .button:hover {
+    background: #1981ad;
+}
+
+.purple .button:hover {
+    background: #691a68;
+}
+
+.green .button:hover {
+    background: #648f27;
+}
+
+.orange .button:hover {
+    background: #be431d;
+}
+
 .button.google {
     background: #387FEE;
 }
