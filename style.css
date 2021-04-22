@@ -110,9 +110,6 @@ a.fb-event {
     background: #4267B2;
     color: #fff!important;
     display: block;
-}
-
-a.fb-event:hover {
     text-decoration: underline;
 }
 
@@ -125,6 +122,7 @@ a.fb-event:hover {
     position: absolute;
     top: calc(50% - 8px);
     right: 16px;
+    transform: rotate(-90deg);
 }
 
 .big {
