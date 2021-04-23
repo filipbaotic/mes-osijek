@@ -51,11 +51,3 @@ function hide() {
 window.addEventListener("scroll", function() {
     hide();
 });
-
-document.addEventListener('click', function(e) {
-    if (e.target.tagName === 'A' &&
-        e.target.href.match(/^https?:\/\//)) {
-        e.preventDefault();
-        window.open(e.target.href, '_system');
-    }
-});

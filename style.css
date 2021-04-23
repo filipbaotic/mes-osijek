@@ -111,6 +111,16 @@ a.fb-event {
     color: #fff!important;
     display: block;
     text-decoration: underline;
+    transition-duration: .2s;
+}
+
+.fb {
+    background: #4267B2;
+}
+
+.fb:hover,
+.fb-event:hover {
+    background: #304f8d;
 }
 
 .fb-arrow {
