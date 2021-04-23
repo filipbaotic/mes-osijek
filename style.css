@@ -325,11 +325,11 @@ a.fb-event {
 
 .tekst {
     overflow: hidden;
-    height: 0;
+    display: none;
 }
 
 .tekst.active {
-    height: fit-content;
+    display: block;
     padding-bottom: 16px;
 }
 
